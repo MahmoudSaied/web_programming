@@ -1,0 +1,65 @@
+#foo {
+    color: rebeccapurple; 
+    text-align: center;
+}
+
+.bazz {
+    color: blue;
+}
+
+div {
+    border: 3px solid black;
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td,th {
+    border: 1px solid black; 
+    padding: 5px;
+}
+
+a[href="https://www.google.com/maps"] {
+    color: brown;
+}
+
+button {
+    margin: 20px;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+@media (min-width: 600px) {
+    body{
+        background-color: red;
+    }
+}
+
+@media (max-width: 599px) {
+    body {
+        background-color: blue;
+    }
+}
+
+#container {
+    display: grid;
+}
+
+#container > div {
+    background-color: red;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
